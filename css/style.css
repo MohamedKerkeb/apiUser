@@ -109,7 +109,7 @@ body {
 
 @media screen and (max-width: 720px) {
 	body {
-		background-color: aqua;
+		/* background-color: aqua; */
 	}
 	.userBox {
 		height: 80%;
@@ -122,5 +122,47 @@ body {
 	}
 	.userCard {
 		margin: 15px;
+	}
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+	body {
+		/* background-color: aqua; */
+	}
+	.userBox {
+		height: 80%;
+		width: 90%;
+	}
+
+	.userDiv {
+		height: 90%;
+		width: 100%;
+	}
+	.userCard {
+		margin: 15px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	body {
+		/* background-color: aqua; */
+	}
+	.userBox {
+		height: 80%;
+		width: 90%;
+	}
+
+	.userDiv {
+		height: 90%;
+		width: 100%;
+		/* background-color: aquamarine; */
+	}
+
+	.userCard {
+		/* margin: 5px; */
+		/* border: 1px solid red; */
+		height: 150px;
+		width: 100px;
+		margin: 10px;
 	}
 }
